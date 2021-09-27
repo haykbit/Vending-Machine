@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 8%;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root button {
+  cursor: pointer;
+}
+
+#root p {
+  font-size: 15px;
+  color: red;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: -5px;
+  width: 70%;
+}
+
+.vendor-machine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #171717;
+  padding: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  height: 355.5px;
+}
+
+.vendor-machine .item {
+  width: 120px;
+}
+
+.vendor-machine .item img {
+  cursor: pointer;
+}
+
+.actions {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.actions button {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin: 5px;
+  border-radius: 50px !important;
+  background-size: cover;
+  background-color: transparent;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.actions button:active {
+  border-style: none;
+}
+
+.actions button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.selectors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.buy-button {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.buy-button button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgba(0, 255, 34, 0.335);
+  color: #fff;
+  border: none;
+  width: 50%;
+}
+
+.buy-button button:active {
+  border-style: none;
+}
+
+.select-button {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.select-button button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #171717;
+  color: #fff;
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.315);
+}
+
+.container {
+  background-color: #96c8fb;
+  background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+  height: 500px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.container button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: #fff;
+  border: none;
+}
+
+.container buttonactive {
+  border: 2px solid #fff;
+}
+
+.container .cancel-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #ff3d3d;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.door-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  background-color: #171717;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.door {
+  width: 95%;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.section-left {
+  width: 560px;
+}
+
+.section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 25px;
+}
+
+.section-right input {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.coin-total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 22px;
+  color: #fff;
+  margin: 20px 0px 10px 0px;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 72%;
+  margin-top: 50px;
+}
+
+.coin-total h2 {
+  margin: 0;
+  font-family: "Jura", sans-serif;
+}
+
+#F01,
+#F02,
+#F03 {
+  background-color: #ff5a5a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
